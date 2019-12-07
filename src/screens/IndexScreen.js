@@ -4,7 +4,7 @@ import { Text, View, StyleSheet, FlatList, Button } from 'react-native';
 import { Context } from '../context/BlogContext';
 
 const IndexScreen = () => {
-    const {state, addBlogPost} = useContext(BlogContext);
+    const {state, addBlogPost} = useContext(Context);
 
     return <View>
         <Text>Blog Index Screen</Text>
